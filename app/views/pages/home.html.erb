@@ -1,5 +1,6 @@
+
 <div class="jumbotron center">
-	<h1>Find The Right Skill...</h1>
+	<h1>Intuitive, fast and easy !</h1>
 	<% if user_signed_in? %>
 		# do something
 	<% else %>
@@ -10,3 +11,132 @@
 	<% end %>
 </div>
 
+<% if user_signed_in? %>
+<div class="container-fluid">
+  
+</div>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Information générale
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <dl class="dl-horizontal">
+          
+          <dt>Adresse :</dt>
+          <dd>4 allée Romain Rolland</dd>
+          <dt></dt>
+          <dd>76410 Saint Aubin-lès-Elbeuf</dd>
+          <dt>Téléphone :</dt>
+          <dd>02 35 35 78 11 22</dd>
+          <dt>Fax :</dt>
+          <dd>02 35 81 81 80</dd>
+          <dt>Email :</dt>
+          <dd>support@everytime-technologies.com</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Contexte Technique
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="panel panel-default">
+		  <div class="panel-heading">Utilsation planning</div>
+		  <div class="panel-body">
+		    Panel content
+		  </div>
+		  <div class="panel-body">
+		    Panel content
+		  </div><div class="panel-body">
+		    <a href="https://docs.google.com/a/everytime-technologies.com/document/d/1e-lkX-yyLipG-S0eRq8ZoA0Qk8q_3QdNPfqs2hMO1z8/edit"target="_blank">Contexte technique</a>
+		  </div>
+		  <div class="panel-body">
+		    Panel content
+		  </div>
+		  <div class="panel-body">
+		    <a href="https://docs.google.com/presentation/d/1ZqhIpUqZbzPedvXXhe3IfdtvkfyCvC8DLtslhlOnyNY/pub?start=false&loop=false&delayms=3000"target="_blank">Contexte technique</a>
+		  </div>
+		  <div class="panel-body">
+		    Panel content
+		  </div>
+		</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Document de formation
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="panel panel-default">
+      <div class="panel-heading">Support de cours</div>
+    
+      <div class="panel-body"><a href="https://docs.google.com/a/everytime-technologies.com/document/d/1e-lkX-yyLipG-S0eRq8ZoA0Qk8q_3QdNPfqs2hMO1z8/edit"target="_blank">
+        Formation découverte</a>
+      </div>
+
+      <div class="panel-body">
+        <a href="https://docs.google.com/a/everytime-technologies.com/document/d/1e-lkX-yyLipG-S0eRq8ZoA0Qk8q_3QdNPfqs2hMO1z8/edit"target="_blank">
+          Formation utilisation & administration</a>
+      </div>
+
+      <div class="panel-body">
+        <a href="https://docs.google.com/presentation/d/1ZqhIpUqZbzPedvXXhe3IfdtvkfyCvC8DLtslhlOnyNY/pub?start=false&loop=false&delayms=3000"target="_blank">Formation Technique</a>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          Système de pointage
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="panel panel-default">
+      <div class="panel-heading">Utilsation planning</div>
+      <div class="panel-body">
+        Panel content
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div><div class="panel-body">
+        <a href="https://docs.google.com/a/everytime-technologies.com/document/d/1e-lkX-yyLipG-S0eRq8ZoA0Qk8q_3QdNPfqs2hMO1z8/edit"target="_blank">Contexte technique</a>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+      <div class="panel-body">
+        <a href="https://docs.google.com/presentation/d/1ZqhIpUqZbzPedvXXhe3IfdtvkfyCvC8DLtslhlOnyNY/pub?start=false&loop=false&delayms=3000"target="_blank">Contexte technique</a>
+      </div>
+      <div class="panel-body">
+        Panel content
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+<% end %>

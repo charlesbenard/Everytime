@@ -4,6 +4,8 @@ $navbar-default-bg: white;
 $navbar-default-brand-color: #2ecc71;
 $brand-primary: #2ecc71;
 $jumbotron-bg: White;
+$container-fluid-bg: blue;
+
 
 @import 'bootstrap';
 
@@ -15,3 +17,14 @@ $jumbotron-bg: White;
 	font-weight: bold;
 }
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  background: red;
+}
+
+#with-container-example {
+  background: pink;
+  margin: 0 auto;
+  width: 100%;
+}
