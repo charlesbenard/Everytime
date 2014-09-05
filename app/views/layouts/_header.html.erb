@@ -20,10 +20,10 @@
           <li> <%= link_to 'Home', root_path %> </li>
           <% if user_signed_in? %>
           <li> <%= link_to 'Guide', about_path %></li>
-          <li> <%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
-          <li><%= link_to "Account Settings", edit_user_registration_path %></li>
+          <li> <%= link_to 'Se déconnecter', destroy_user_session_path, method: :delete %></li>
+          <li><%= link_to "Mon compte", edit_user_registration_path %></li>
           <% else %>
-          <li> <%= link_to 'Log in', new_user_session_path %></li>
+          <li> <%= link_to 'Se connecter', new_user_session_path %></li>
           <% end %>
         </ul>
       </div><!-- /.navbar-collapse -->
