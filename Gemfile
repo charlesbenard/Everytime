@@ -14,11 +14,6 @@ gem 'devise', '~> 3.2.4.rc2'
 
 group :development, :test do
 	gem 'sqlite3'
-	gem "rspec", ">= 2.8.0"
-  gem "bundler", "~> 1.2"
-  gem "jeweler", "> 1.6.4"
-  gem 'i18n-spec', ">= 0.4.0"
-  gem 'localeapp'
 end
 
 group :production do

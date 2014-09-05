@@ -1,6 +1,6 @@
 # One Month Rails
 
-This is the pinteresting sample application for 
-[*One Month Rails*] [http://onemonthrails.com/]
+This is the EVERYTIME application
+[*EVERYTIME Technologies*] [http://everytime-technologies.com/]
 
-by [Mattan Grieffel](http://matangrieffel.com]
+by [Charles Bénard]
