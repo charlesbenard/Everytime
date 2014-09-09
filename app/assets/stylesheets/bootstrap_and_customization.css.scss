@@ -5,6 +5,9 @@ $navbar-default-brand-color: #16a085;
 $brand-primary: #16a085;
 $jumbotron-bg: white;
 $jumbotron-heading-color: #000, 13.5%;
+$btn-primary-bg: white;
+$btn-primary-border: #16a085;
+$btn-primary-color: #16a085; 
 
 
 
@@ -40,20 +43,39 @@ background-size: cover;
 	font-weight: bold;
 
 }
-
-.second {
-	text-align: center;
+.devise {
+    margin-top: 30px;
 }
 
 .one {
     background-color: white;
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.test1 {
+.two {
+    background-color: white;
+    padding-top: 30px;
     background-color: #ecf0f1;
+    padding-bottom: 30px;
+    display: block;
+
 }
 
+.featurette-heading {
+margin-top: 90px;
+}
 
+.img-responsive {
+display: block;
+vertical-align-: middle;
+
+}
+
+.footer {
+bottom: 0;
+width: 100%;
+height: 10px;
+}
 
