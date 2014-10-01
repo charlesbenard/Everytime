@@ -3,11 +3,12 @@ $navbar-height: 45px;
 $navbar-default-bg: white;
 $navbar-default-brand-color: #67BBAA;
 $brand-primary: #67BBAA;
-$jumbotron-bg: white;
-$jumbotron-heading-color: #000, 13.5%;
+$jumbotron-bg: none;
+$jumbotron-heading-color: #FFF, 13.5%;
 $btn-primary-bg: white;
 $btn-primary-border: #67BBAA;
 $btn-primary-color: #67BBAA; 
+$btn-success-color: white;  
 
 
 
@@ -25,11 +26,17 @@ margin-bottom: 0px;
 }
 
 .landing {
-background-color: #67BBAA;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;                    
+background-image: url(http://img11.hostingpics.net/pics/968617Artboard2.png);
+background-position-x: 50%;
+background-position-y: 50%;
 background-size: cover;
+background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: white;
+
 
 }
 
@@ -37,7 +44,32 @@ background-size: cover;
     text-align: center;
     width: 100%;
     margin-top: 30px;
+    color: #fff;
+    
+    .container h2{
+        font-size:50px; 
+        font-weight:110;
+    }
+
 }
+
+.boutton.btn.btn-primary.btn-lg {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    color: white;
+    a {color: white;
+    }
+}    
+
+.boutton.btn.btn-primary.btn-lg:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    a {color: #67BBAA;
+        text-decoration: none;  
+    }
+}
+
 
 .navbar-brand {
 	font-weight: bold;
